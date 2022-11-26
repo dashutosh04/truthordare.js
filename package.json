@@ -1,6 +1,6 @@
 {
   "name": "truthordare.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Truth or Dare API Package",
   "main": "index.js",
   "scripts": {
