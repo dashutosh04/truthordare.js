@@ -10,11 +10,7 @@ const base_url = "https://api.truthordarebot.xyz/api/";
 async function truth(params = {}) {
   var data;
   var rating_tag;
-  if (
-    params &
-    params.rating &
-    (params.rating.uppercase == "R" || "PG13" || "PG")
-  ) {
+  if (params & params.rating & (params.rating == "R" || "PG13" || "PG")) {
     rating_tag = `?rating=${params.rating}`;
   } else {
     rating_tag = "";
@@ -42,11 +38,7 @@ async function dare(params = {}) {
   var data;
   var rating_tag;
 
-  if (
-    params &
-    params.rating &
-    (params.rating.uppercase == "R" || "PG13" || "PG")
-  ) {
+  if (params & params.rating & (params.rating == "R" || "PG13" || "PG")) {
     rating_tag = `?rating=${params.rating}`;
   } else {
     rating_tag = "";
