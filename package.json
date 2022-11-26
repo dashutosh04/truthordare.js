@@ -1,0 +1,28 @@
+{
+  "name": "truthordare.js",
+  "version": "1.0.0",
+  "description": "Truth or Dare API Package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamd4rk/truthordare.js.git"
+  },
+  "keywords": [
+    "truth",
+    "dare",
+    "truthordare",
+    "truth-or-dare"
+  ],
+  "author": "iamd4rk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamd4rk/truthordare.js/issues"
+  },
+  "homepage": "https://github.com/iamd4rk/truthordare.js#readme",
+  "dependencies": {
+    "node-fetch": "=2.6.1"
+  }
+}
