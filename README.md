@@ -24,7 +24,7 @@ const tord = require("truthordare.js");
 
 ## ✅ Commands
 
-> You can use the following Funtions :- Truth() | Dare() | Paranomia() | Wyr() | Nhie()
+> You can use the following Funtions :- Truth() | Dare() | Paranoia() | Wyr() | Nhie()
 
 ### 👼 **Truth**
 

@@ -2,7 +2,7 @@ const Fetch = require("node-fetch");
 const base_url = "https://api.truthordarebot.xyz/api/";
 
 /**
- * --PARANOMIA--
+ * --PARANOIA--
  * @param {object} params -> Nhie({rating:"`rating-here`"}) || Valid ratings -> `PG` , `PG13` , `R`
  * @returns {Data} Raw Data From the API
  */
